@@ -4,6 +4,7 @@
 
 
 // Make sure you compile with the -mfma option for compatibility with both AMD and Intel processors
+// Must support FMA/AVX extension
 
 typedef struct {
 	__m128d** two_dim_matrix_vals;

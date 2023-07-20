@@ -4,6 +4,7 @@
 
 // Make sure you compile with the -mavx512f option for compatibility with both AMD and Intel processors
 // Work under assumption of double precision floating point numbers (float64, AKA doubles)
+// Must support AVX-512 extension
 
 // Define the matrix structure using intrinsic registers
 typedef struct {
